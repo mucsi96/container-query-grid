@@ -1,0 +1,113 @@
+.container {
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+
+  &.l {
+    .firstName {
+      grid-column: span 4;
+    }
+
+    .lastName {
+      grid-column: span 4; 
+    }
+
+    .dateOfBirth {
+      grid-column: span 2; 
+    }
+
+    .age {
+      grid-column: span 2;
+    }
+
+    .street {
+      grid-column: span 10;
+    }
+
+    .number {
+      grid-column: span 2;
+    }
+
+    .postCode {
+      grid-column: span 4;
+    }
+
+    .city {
+      grid-column: span 4;
+    }
+
+    .country {
+      grid-column: span 4;
+    }
+
+    .language {
+      grid-column: span 4;
+    }
+
+    .profession {
+      grid-column: span 4;
+    }
+
+    .nationality {
+      grid-column: span 4;
+    }
+
+    .status {
+      grid-column: span 4;
+    }
+  }
+
+  &.m {
+    .firstName {
+      grid-column: span 6;
+    }
+
+    .lastName {
+      grid-column: span 6; 
+    }
+
+    .dateOfBirth {
+      grid-column: span 6; 
+    }
+
+    .age {
+      grid-column: span 6;
+    }
+
+    .street {
+      grid-column: span 10;
+    }
+
+    .number {
+      grid-column: span 2;
+    }
+
+    .postCode {
+      grid-column: span 2;
+    }
+
+    .city {
+      grid-column: span 5;
+    }
+
+    .country {
+      grid-column: span 5;
+    }
+
+    .language {
+      grid-column: span 6;
+    }
+
+    .profession {
+      grid-column: span 6;
+    }
+
+    .nationality {
+      grid-column: span 6;
+    }
+
+    .status {
+      grid-column: span 6;
+    }
+  }
+}
